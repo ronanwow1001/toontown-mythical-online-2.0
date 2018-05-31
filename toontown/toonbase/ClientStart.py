@@ -437,19 +437,4 @@ base.loader = base.loader
 __builtin__.loader = base.loader
 autoRun = ConfigVariableBool('toontown-auto-run', 1)
 
-if autoRun:
-    try:
-        base.run()
-    except SystemExit:
-        raise
-    except:
-        from toontown.toonbase import ToonPythonUtil as PythonUtil
-        print PythonUtil.describeException()
-        import traceback
-        from toontown.toonbase import ErrorHandler
-        ErrorHandler = ErrorHandler.ErrorHandler()
-        ErrorHandler.addtags({
-            'VERSION': serverVersion
-        })
-        ErrorHandler.reporterror(traceback.format_exc())
-        raise
+base.run()
