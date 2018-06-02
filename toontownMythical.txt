@@ -73,3 +73,4 @@ Known pipe types:
 :gobj: Implicitly rescaling morky_head.19.jpg from 1280 by 720 to 1024 by 512
 :ToontownStart: Loading the default GUI sounds.
 ToontownStart: Build Version: cv. 1.0
+import toontown.toonbase
