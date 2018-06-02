@@ -1,1 +1,75 @@
-import tontown.toonbase
+:interrogatedb(error): Attempt to use type ostream which has not yet been defined!
+:interrogatedb(error): Attempt to use type ostream which has not yet been defined!
+:interrogatedb(error): Attempt to use type TypeHandle which has not yet been defined!
+:interrogatedb(error): Attempt to use type TypeHandle which has not yet been defined!
+Warning: pandac.PandaModules is deprecated, import from panda3d.core instead
+ToontownStart: Loading settings.
+ToontownStart: Starting the game.
+:loader: Reading /phase_3/models/gui/loading-background.bam
+:gobj: Loading texture /phase_3/maps/loading_bg_clouds.jpg
+:gobj: Loading texture /phase_3/maps/toontown-logo.jpg and alpha component /phase_3/maps/toontown-logo_a.rgb
+:gobj: Implicitly rescaling toontown-logo.jpg from 878 by 322 to 512 by 256
+:gobj: Implicitly rescaling toontown-logo_a.rgb from 878 by 322 to 512 by 256
+:gobj: Loading texture /phase_3/maps/square_drop_shadow.jpg and alpha component /phase_3/maps/square_drop_shadow_a.rgb
+ToontownStart: Setting the default font.
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+:DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:display:windisplay: OS version: 6.2.2.9200
+:display:windisplay:
+:display:windisplay: max Mhz 2401000000, current Mhz 768000000
+:ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:display: Created output of type wglGraphicsWindow
+:display: Unable to set window properties: !undecorated !fixed_size
+:ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:ShowBase: __dev__ == False
+:text: Loading font /phase_3/models/fonts/vtRemingtonPortable.ttf
+:pnmtext: Loaded font VTPortableRemington Regular
+:text: Loading font /phase_3/models/fonts/LCD_Solid.ttf
+:pnmtext: Loaded font LCD Solid Regular
+:loader: Reading /phase_9/models/gui/morky_jump.bam
+:gobj: Loading texture /phase_9/maps/morky/morky_head.01.jpg
+:gobj: Implicitly rescaling morky_head.01.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.02.jpg
+:gobj: Implicitly rescaling morky_head.02.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.03.jpg
+:gobj: Implicitly rescaling morky_head.03.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.04.jpg
+:gobj: Implicitly rescaling morky_head.04.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.05.jpg
+:gobj: Implicitly rescaling morky_head.05.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.06.jpg
+:gobj: Implicitly rescaling morky_head.06.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.07.jpg
+:gobj: Implicitly rescaling morky_head.07.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.08.jpg
+:gobj: Implicitly rescaling morky_head.08.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.09.jpg
+:gobj: Implicitly rescaling morky_head.09.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.10.jpg
+:gobj: Implicitly rescaling morky_head.10.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.11.jpg
+:gobj: Implicitly rescaling morky_head.11.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.12.jpg
+:gobj: Implicitly rescaling morky_head.12.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.13.jpg
+:gobj: Implicitly rescaling morky_head.13.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.14.jpg
+:gobj: Implicitly rescaling morky_head.14.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.15.jpg
+:gobj: Implicitly rescaling morky_head.15.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.16.jpg
+:gobj: Implicitly rescaling morky_head.16.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.17.jpg
+:gobj: Implicitly rescaling morky_head.17.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.18.jpg
+:gobj: Implicitly rescaling morky_head.18.jpg from 1280 by 720 to 1024 by 512
+:gobj: Loading texture /phase_9/maps/morky/morky_head.19.jpg
+:gobj: Implicitly rescaling morky_head.19.jpg from 1280 by 720 to 1024 by 512
+:ToontownStart: Loading the default GUI sounds.
+ToontownStart: Build Version: cv. 1.0
