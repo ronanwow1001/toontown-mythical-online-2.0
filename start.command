@@ -1,8 +1,31 @@
-:interrogatedb(error): Attempt to use type ostream which has not yet been defined!
-:interrogatedb(error): Attempt to use type ostream which has not yet been defined!
-:interrogatedb(error): Attempt to use type TypeHandle which has not yet been defined!
-:interrogatedb(error): Attempt to use type TypeHandle which has not yet been defined!
-Warning: pandac.PandaModules is deprecated, import from panda3d.core instead
-ToontownStart: Loading settings.
-ToontownStart: Starting the game.
-import toontown.toonbase
+@echo off
+cd ../
+
+rem Read the contents of PPYTHON_PATH into %PPYTHON_PATH%:
+set /P PPYTHON_PATH=<PPYTHON_PATH
+
+rem Get the user input:
+set /P ttUsername="Username: "
+
+rem Get the user input:
+set /P ttPassword="Password: "
+
+rem Export the environment variables:
+set TT_USERNAME=%ttUsername%
+set TT_PASSWORD=%ttPassword%
+set TT_GAMESERVER=gs1.projectaltis.com
+set model-path=../resources
+
+echo ===============================
+echo Starting Toontown Project Altis...
+echo ppython: %PPYTHON_PATH%
+echo Username: %ttUsername%
+echo Gameserver: %TT_GAMESERVER%
+echo ===============================
+
+:goto
+
+%PPYTHON_PATH% -m toontown.toonbase.DCImporter
+pause
+
+goto :goto
