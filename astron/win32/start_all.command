@@ -1,4 +1,4 @@
-start start_mongo
-start start_astron_cluster
-start start_ai_server
-start start_uberdog_server
+start start_mongo.cmd
+start start_astron_cluster.cmd
+start start_ai_server.cmd
+start start_uberdog_server.cmd
